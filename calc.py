@@ -1,26 +1,5 @@
-def add(_a: float, _b: float) -> float:
-    return _a + _b
-
-
-def subtract(_a: float, _b: float) -> float:
-    return _a - _b
-
-
-def multiply(_a: float, _b: float) -> float:
-    return _a * _b
-
-
-def divide(_a: float, _b: float) -> float:
-    return _a / _b
-
-
-def power(_a: int, _b: int) -> int:
-    return _a ** _b
-
-
-def input_num(_txt: str) -> float:
-    return float(input(_txt))
-
+from lib.console import input_num
+from lib.math_basic import *
 
 print('Hi')
 print('Look - I can calculate :)')
